@@ -12,7 +12,7 @@ namespace GradeBook
                 Console.WriteLine("Hello stranger!");
             }
 
-            List<double> listOfGrades = new List<double>() {12.7, 10.3, 6.11, 4.1};
+            var listOfGrades = new List<double>() {12.7, 10.3, 6.11, 4.1};
             listOfGrades.Add(56.1);
 
             var result = 0.0;
