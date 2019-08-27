@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Collections.Generic;
 namespace GradeBook
 {
     class Program
@@ -12,12 +12,17 @@ namespace GradeBook
                 Console.WriteLine("Hello stranger!");
             }
 
-            var grades = new[] {12.7, 10.3, 6.11, 4.1};
+            List<double> listOfGrades = new List<double>() {12.7, 10.3, 6.11, 4.1};
+            listOfGrades.Add(56.1);
+
             var result = 0.0;
-            foreach (var grade in grades) {
+            foreach (var grade in listOfGrades) {
                 result += grade;
             }
-            Console.WriteLine($"The sum of all grades is {result}");
+            // Count how many items in the list
+            result /= listOfGrades.Count;
+            // Use one decimal
+            Console.WriteLine($"The sum of all grades is {result:N1}");
         }
     }
 }
