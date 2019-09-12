@@ -14,7 +14,7 @@ namespace GradeBook
                 Console.WriteLine("Hello stranger!");
             }
 
-            var testGradeBook = new Book();
+            var testGradeBook = new Book("test");
             testGradeBook.AddGrade(12.7);
             testGradeBook.AddGrade(10.3);
             testGradeBook.AddGrade(6.11);
