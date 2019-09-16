@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gradebook", "gradebook", "{D9A619B8-6C32-4454-9D54-2D2EA43F1096}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B264CFDE-D4BA-427A-8B2B-77CD00BAB166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeBook", "gradebook\src\GradeBook\GradeBook.csproj", "{19709423-0E81-40A0-BCC3-9D23E0EA90ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,5 +20,23 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19709423-0E81-40A0-BCC3-9D23E0EA90ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19709423-0E81-40A0-BCC3-9D23E0EA90ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19709423-0E81-40A0-BCC3-9D23E0EA90ED}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{19709423-0E81-40A0-BCC3-9D23E0EA90ED}.Debug|x64.Build.0 = Debug|Any CPU
+		{19709423-0E81-40A0-BCC3-9D23E0EA90ED}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{19709423-0E81-40A0-BCC3-9D23E0EA90ED}.Debug|x86.Build.0 = Debug|Any CPU
+		{19709423-0E81-40A0-BCC3-9D23E0EA90ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19709423-0E81-40A0-BCC3-9D23E0EA90ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19709423-0E81-40A0-BCC3-9D23E0EA90ED}.Release|x64.ActiveCfg = Release|Any CPU
+		{19709423-0E81-40A0-BCC3-9D23E0EA90ED}.Release|x64.Build.0 = Release|Any CPU
+		{19709423-0E81-40A0-BCC3-9D23E0EA90ED}.Release|x86.ActiveCfg = Release|Any CPU
+		{19709423-0E81-40A0-BCC3-9D23E0EA90ED}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B264CFDE-D4BA-427A-8B2B-77CD00BAB166} = {D9A619B8-6C32-4454-9D54-2D2EA43F1096}
+		{19709423-0E81-40A0-BCC3-9D23E0EA90ED} = {B264CFDE-D4BA-427A-8B2B-77CD00BAB166}
 	EndGlobalSection
 EndGlobal
