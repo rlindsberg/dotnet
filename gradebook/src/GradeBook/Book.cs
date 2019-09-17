@@ -4,15 +4,16 @@ using System.Collections.Generic;
 namespace GradeBook {
     public class Book
     {
+        // This is called a field, implicit typing is now allowed
+        private List<double> listOfGrades;
+        public string Name { get; private set; }
+        
         public Book(string name)
         {
             listOfGrades = new List<double>();
-            _name = name;
+            Name = name;
         }
-        // This is called a field, implicit typing is now allowed
-        private List<double> listOfGrades;
-        private string _name;
-        
+
         // Instance member (method) of the class Book
         public void AddGrade(double gradeToBeAdded)
         {

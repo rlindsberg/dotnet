@@ -6,7 +6,7 @@ namespace GradeBook.Tests
     public class BookTests
     {
         [Fact]
-        public void Test1()
+        public void TestBookCalculateStatictics()
         {
             //Arrange
             var ma3C = new Book("Grade Book Klass NA19");
